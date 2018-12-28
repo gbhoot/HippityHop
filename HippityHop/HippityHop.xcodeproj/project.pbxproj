@@ -1,0 +1,698 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		77DDFBCA218CB18A00DED975 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77DDFBC9218CB18A00DED975 /* HomeViewController.swift */; };
+		77DDFBCC218CC6DA00DED975 /* Swift+GIF.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77DDFBCB218CC6DA00DED975 /* Swift+GIF.swift */; };
+		77DDFBCE218CC6F400DED975 /* dancing.gif in Resources */ = {isa = PBXBuildFile; fileRef = 77DDFBCD218CC6F300DED975 /* dancing.gif */; };
+		77FCC321218C054F00C3A369 /* HippityHop.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 77FCC31F218C054F00C3A369 /* HippityHop.xcdatamodeld */; };
+		77FCC323218C088200C3A369 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77FCC322218C088200C3A369 /* TableViewController.swift */; };
+		77FCC325218C089700C3A369 /* TaTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77FCC324218C089700C3A369 /* TaTableViewCell.swift */; };
+		D2B232AC7B5DCA17E3083423 /* libPods-HippityHop.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D470019A8072094935ABCC17 /* libPods-HippityHop.a */; };
+		FB7D61B8218BB04D002225DC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB7D61B7218BB04D002225DC /* AppDelegate.swift */; };
+		FB7D61BD218BB04D002225DC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FB7D61BB218BB04D002225DC /* Main.storyboard */; };
+		FB7D61BF218BB04E002225DC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FB7D61BE218BB04E002225DC /* Assets.xcassets */; };
+		FB7D61C2218BB04E002225DC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FB7D61C0218BB04E002225DC /* LaunchScreen.storyboard */; };
+		FB7D61CD218BB04E002225DC /* HippityHopTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB7D61CC218BB04E002225DC /* HippityHopTests.swift */; };
+		FB7D61D8218BB04E002225DC /* HippityHopUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB7D61D7218BB04E002225DC /* HippityHopUITests.swift */; };
+		FB7D61E7218BB279002225DC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB7D61E6218BB279002225DC /* ViewController.swift */; };
+		FB7D61EA218CA196002225DC /* RoundedButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB7D61E9218CA196002225DC /* RoundedButton.swift */; };
+		FB7D61EE218CA509002225DC /* ScoreLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB7D61ED218CA509002225DC /* ScoreLabel.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FB7D61C9218BB04E002225DC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FB7D61AC218BB04D002225DC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FB7D61B3218BB04D002225DC;
+			remoteInfo = HippityHop;
+		};
+		FB7D61D4218BB04E002225DC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FB7D61AC218BB04D002225DC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FB7D61B3218BB04D002225DC;
+			remoteInfo = HippityHop;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0D30279603BF6186F282F33F /* Pods-HippityHop.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HippityHop.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HippityHop/Pods-HippityHop.debug.xcconfig"; sourceTree = "<group>"; };
+		77DDFBC9218CB18A00DED975 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		77DDFBCB218CC6DA00DED975 /* Swift+GIF.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Swift+GIF.swift"; sourceTree = "<group>"; };
+		77DDFBCD218CC6F300DED975 /* dancing.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = dancing.gif; sourceTree = "<group>"; };
+		77FCC320218C054F00C3A369 /* HippityHop.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = HippityHop.xcdatamodel; sourceTree = "<group>"; };
+		77FCC322218C088200C3A369 /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
+		77FCC324218C089700C3A369 /* TaTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaTableViewCell.swift; sourceTree = "<group>"; };
+		96339A361CB324FCBC3916B8 /* Pods-HippityHop.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HippityHop.release.xcconfig"; path = "Pods/Target Support Files/Pods-HippityHop/Pods-HippityHop.release.xcconfig"; sourceTree = "<group>"; };
+		D470019A8072094935ABCC17 /* libPods-HippityHop.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-HippityHop.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FB7D61B4218BB04D002225DC /* HippityHop.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HippityHop.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FB7D61B7218BB04D002225DC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FB7D61BC218BB04D002225DC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FB7D61BE218BB04E002225DC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FB7D61C1218BB04E002225DC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FB7D61C3218BB04E002225DC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FB7D61C8218BB04E002225DC /* HippityHopTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HippityHopTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FB7D61CC218BB04E002225DC /* HippityHopTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HippityHopTests.swift; sourceTree = "<group>"; };
+		FB7D61CE218BB04E002225DC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FB7D61D3218BB04E002225DC /* HippityHopUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HippityHopUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FB7D61D7218BB04E002225DC /* HippityHopUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HippityHopUITests.swift; sourceTree = "<group>"; };
+		FB7D61D9218BB04E002225DC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FB7D61E6218BB279002225DC /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		FB7D61E9218CA196002225DC /* RoundedButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundedButton.swift; sourceTree = "<group>"; };
+		FB7D61ED218CA509002225DC /* ScoreLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScoreLabel.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FB7D61B1218BB04D002225DC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D2B232AC7B5DCA17E3083423 /* libPods-HippityHop.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB7D61C5218BB04E002225DC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB7D61D0218BB04E002225DC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		998A88C6240714DE363F6C27 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D470019A8072094935ABCC17 /* libPods-HippityHop.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F2EA3861F5BF90405F3B2768 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0D30279603BF6186F282F33F /* Pods-HippityHop.debug.xcconfig */,
+				96339A361CB324FCBC3916B8 /* Pods-HippityHop.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		FB7D61AB218BB04D002225DC = {
+			isa = PBXGroup;
+			children = (
+				FB7D61B6218BB04D002225DC /* HippityHop */,
+				FB7D61CB218BB04E002225DC /* HippityHopTests */,
+				FB7D61D6218BB04E002225DC /* HippityHopUITests */,
+				FB7D61B5218BB04D002225DC /* Products */,
+				F2EA3861F5BF90405F3B2768 /* Pods */,
+				998A88C6240714DE363F6C27 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		FB7D61B5218BB04D002225DC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FB7D61B4218BB04D002225DC /* HippityHop.app */,
+				FB7D61C8218BB04E002225DC /* HippityHopTests.xctest */,
+				FB7D61D3218BB04E002225DC /* HippityHopUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FB7D61B6218BB04D002225DC /* HippityHop */ = {
+			isa = PBXGroup;
+			children = (
+				FB7D61E8218CA188002225DC /* View */,
+				FB7D61B7218BB04D002225DC /* AppDelegate.swift */,
+				77FCC31F218C054F00C3A369 /* HippityHop.xcdatamodeld */,
+				77DDFBCB218CC6DA00DED975 /* Swift+GIF.swift */,
+				FB7D61E6218BB279002225DC /* ViewController.swift */,
+				77DDFBC9218CB18A00DED975 /* HomeViewController.swift */,
+				FB7D61BB218BB04D002225DC /* Main.storyboard */,
+				77FCC322218C088200C3A369 /* TableViewController.swift */,
+				77FCC324218C089700C3A369 /* TaTableViewCell.swift */,
+				77DDFBCD218CC6F300DED975 /* dancing.gif */,
+				FB7D61BE218BB04E002225DC /* Assets.xcassets */,
+				FB7D61C0218BB04E002225DC /* LaunchScreen.storyboard */,
+				FB7D61C3218BB04E002225DC /* Info.plist */,
+			);
+			path = HippityHop;
+			sourceTree = "<group>";
+		};
+		FB7D61CB218BB04E002225DC /* HippityHopTests */ = {
+			isa = PBXGroup;
+			children = (
+				FB7D61CC218BB04E002225DC /* HippityHopTests.swift */,
+				FB7D61CE218BB04E002225DC /* Info.plist */,
+			);
+			path = HippityHopTests;
+			sourceTree = "<group>";
+		};
+		FB7D61D6218BB04E002225DC /* HippityHopUITests */ = {
+			isa = PBXGroup;
+			children = (
+				FB7D61D7218BB04E002225DC /* HippityHopUITests.swift */,
+				FB7D61D9218BB04E002225DC /* Info.plist */,
+			);
+			path = HippityHopUITests;
+			sourceTree = "<group>";
+		};
+		FB7D61E8218CA188002225DC /* View */ = {
+			isa = PBXGroup;
+			children = (
+				FB7D61E9218CA196002225DC /* RoundedButton.swift */,
+				FB7D61ED218CA509002225DC /* ScoreLabel.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FB7D61B3218BB04D002225DC /* HippityHop */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FB7D61DC218BB04E002225DC /* Build configuration list for PBXNativeTarget "HippityHop" */;
+			buildPhases = (
+				6C3307E880F2AF0F59F61FD2 /* [CP] Check Pods Manifest.lock */,
+				FB7D61B0218BB04D002225DC /* Sources */,
+				FB7D61B1218BB04D002225DC /* Frameworks */,
+				FB7D61B2218BB04D002225DC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HippityHop;
+			productName = HippityHop;
+			productReference = FB7D61B4218BB04D002225DC /* HippityHop.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FB7D61C7218BB04E002225DC /* HippityHopTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FB7D61DF218BB04E002225DC /* Build configuration list for PBXNativeTarget "HippityHopTests" */;
+			buildPhases = (
+				FB7D61C4218BB04E002225DC /* Sources */,
+				FB7D61C5218BB04E002225DC /* Frameworks */,
+				FB7D61C6218BB04E002225DC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FB7D61CA218BB04E002225DC /* PBXTargetDependency */,
+			);
+			name = HippityHopTests;
+			productName = HippityHopTests;
+			productReference = FB7D61C8218BB04E002225DC /* HippityHopTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FB7D61D2218BB04E002225DC /* HippityHopUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FB7D61E2218BB04E002225DC /* Build configuration list for PBXNativeTarget "HippityHopUITests" */;
+			buildPhases = (
+				FB7D61CF218BB04E002225DC /* Sources */,
+				FB7D61D0218BB04E002225DC /* Frameworks */,
+				FB7D61D1218BB04E002225DC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FB7D61D5218BB04E002225DC /* PBXTargetDependency */,
+			);
+			name = HippityHopUITests;
+			productName = HippityHopUITests;
+			productReference = FB7D61D3218BB04E002225DC /* HippityHopUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FB7D61AC218BB04D002225DC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1000;
+				LastUpgradeCheck = 1000;
+				ORGANIZATIONNAME = "Gurpal Bhoot";
+				TargetAttributes = {
+					FB7D61B3218BB04D002225DC = {
+						CreatedOnToolsVersion = 10.0;
+					};
+					FB7D61C7218BB04E002225DC = {
+						CreatedOnToolsVersion = 10.0;
+						TestTargetID = FB7D61B3218BB04D002225DC;
+					};
+					FB7D61D2218BB04E002225DC = {
+						CreatedOnToolsVersion = 10.0;
+						TestTargetID = FB7D61B3218BB04D002225DC;
+					};
+				};
+			};
+			buildConfigurationList = FB7D61AF218BB04D002225DC /* Build configuration list for PBXProject "HippityHop" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FB7D61AB218BB04D002225DC;
+			productRefGroup = FB7D61B5218BB04D002225DC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FB7D61B3218BB04D002225DC /* HippityHop */,
+				FB7D61C7218BB04E002225DC /* HippityHopTests */,
+				FB7D61D2218BB04E002225DC /* HippityHopUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FB7D61B2218BB04D002225DC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB7D61C2218BB04E002225DC /* LaunchScreen.storyboard in Resources */,
+				FB7D61BF218BB04E002225DC /* Assets.xcassets in Resources */,
+				FB7D61BD218BB04D002225DC /* Main.storyboard in Resources */,
+				77DDFBCE218CC6F400DED975 /* dancing.gif in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB7D61C6218BB04E002225DC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB7D61D1218BB04E002225DC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		6C3307E880F2AF0F59F61FD2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HippityHop-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FB7D61B0218BB04D002225DC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				77FCC321218C054F00C3A369 /* HippityHop.xcdatamodeld in Sources */,
+				FB7D61EA218CA196002225DC /* RoundedButton.swift in Sources */,
+				FB7D61E7218BB279002225DC /* ViewController.swift in Sources */,
+				77DDFBCA218CB18A00DED975 /* HomeViewController.swift in Sources */,
+				77DDFBCC218CC6DA00DED975 /* Swift+GIF.swift in Sources */,
+				FB7D61EE218CA509002225DC /* ScoreLabel.swift in Sources */,
+				FB7D61B8218BB04D002225DC /* AppDelegate.swift in Sources */,
+				77FCC323218C088200C3A369 /* TableViewController.swift in Sources */,
+				77FCC325218C089700C3A369 /* TaTableViewCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB7D61C4218BB04E002225DC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB7D61CD218BB04E002225DC /* HippityHopTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB7D61CF218BB04E002225DC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB7D61D8218BB04E002225DC /* HippityHopUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FB7D61CA218BB04E002225DC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FB7D61B3218BB04D002225DC /* HippityHop */;
+			targetProxy = FB7D61C9218BB04E002225DC /* PBXContainerItemProxy */;
+		};
+		FB7D61D5218BB04E002225DC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FB7D61B3218BB04D002225DC /* HippityHop */;
+			targetProxy = FB7D61D4218BB04E002225DC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FB7D61BB218BB04D002225DC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FB7D61BC218BB04D002225DC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FB7D61C0218BB04E002225DC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FB7D61C1218BB04E002225DC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FB7D61DA218BB04E002225DC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FB7D61DB218BB04E002225DC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FB7D61DD218BB04E002225DC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0D30279603BF6186F282F33F /* Pods-HippityHop.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = XPLHHD6M5T;
+				INFOPLIST_FILE = HippityHop/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = gbhoot.HippityHop1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FB7D61DE218BB04E002225DC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 96339A361CB324FCBC3916B8 /* Pods-HippityHop.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = XPLHHD6M5T;
+				INFOPLIST_FILE = HippityHop/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = gbhoot.HippityHop1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		FB7D61E0218BB04E002225DC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = J3CA5JK947;
+				INFOPLIST_FILE = HippityHopTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = gbhoot.HippityHopTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HippityHop.app/HippityHop";
+			};
+			name = Debug;
+		};
+		FB7D61E1218BB04E002225DC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = J3CA5JK947;
+				INFOPLIST_FILE = HippityHopTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = gbhoot.HippityHopTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HippityHop.app/HippityHop";
+			};
+			name = Release;
+		};
+		FB7D61E3218BB04E002225DC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = J3CA5JK947;
+				INFOPLIST_FILE = HippityHopUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = gbhoot.HippityHopUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = HippityHop;
+			};
+			name = Debug;
+		};
+		FB7D61E4218BB04E002225DC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = J3CA5JK947;
+				INFOPLIST_FILE = HippityHopUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = gbhoot.HippityHopUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = HippityHop;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FB7D61AF218BB04D002225DC /* Build configuration list for PBXProject "HippityHop" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FB7D61DA218BB04E002225DC /* Debug */,
+				FB7D61DB218BB04E002225DC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FB7D61DC218BB04E002225DC /* Build configuration list for PBXNativeTarget "HippityHop" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FB7D61DD218BB04E002225DC /* Debug */,
+				FB7D61DE218BB04E002225DC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FB7D61DF218BB04E002225DC /* Build configuration list for PBXNativeTarget "HippityHopTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FB7D61E0218BB04E002225DC /* Debug */,
+				FB7D61E1218BB04E002225DC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FB7D61E2218BB04E002225DC /* Build configuration list for PBXNativeTarget "HippityHopUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FB7D61E3218BB04E002225DC /* Debug */,
+				FB7D61E4218BB04E002225DC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		77FCC31F218C054F00C3A369 /* HippityHop.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				77FCC320218C054F00C3A369 /* HippityHop.xcdatamodel */,
+			);
+			currentVersion = 77FCC320218C054F00C3A369 /* HippityHop.xcdatamodel */;
+			path = HippityHop.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = FB7D61AC218BB04D002225DC /* Project object */;
+}
